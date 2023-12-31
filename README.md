@@ -11,7 +11,7 @@ In order to run this example :
 3/compile with maven 3, via :
 $ mvn compile
 
-4/place the input file in the HDFS, via :
+4/place the input file 'tiny_graph' in the HDFS, via :
 $ hadoop fs -put /.../input /
 
 5/run the Giraph jar with Hadoop, via :
